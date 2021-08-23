@@ -10,7 +10,7 @@ var rl = readline.createInterface({
     output: process.stdout
   });
   
-  rl.question("Input your sentence ", function(answer) {
+  rl.question("Input your sentence    ", function(answer) {
     // TODO: Log the answer in a database
     console.log("Thank you for using our service");
     retext()
