@@ -11,7 +11,7 @@ var rl = readline.createInterface({
   });
   
   rl.question("Input your sentence    ", function(answer) {
-    // TODO: Log the answer in a database
+    // Log confirmation
     console.log("Thank you for using our service");
     retext()
      .use(retextSpell, dictionary)
